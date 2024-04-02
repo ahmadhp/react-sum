@@ -34,7 +34,7 @@ export default function InputForm() {
       initialOpacity={0}
       finalOpacity={1}
     >
-      <div className='relative w-[500px] bg-[var(--light-blue-gray)]  p-8 mt-2 rounded-2xl '>
+      <div className='relative lg:w-[500px] sm:w-[400px] bg-[var(--light-blue-gray)]  lg:p-8 sm:p-6 p-4 mt-2 rounded-2xl '>
         <h1 className='text-[var(--gray-900)] leading-[1.2] text-2xl my-4 font-semibold'>
           Enter a list of numbers separated with commas
         </h1>
