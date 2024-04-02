@@ -1,7 +1,10 @@
 'use server';
+
+//NOTE version 1
 const sumIndexOfAll = (arr, val) =>
   arr.reduce((acc, el, i) => (el === val ? [...acc, i] : acc), []);
-export async function detectSums(arr) {
+
+export async function detectSumsV1(arr) {
   const result = [];
   let sumIndexes;
   for (let i = 0; i < arr.length; i++) {
@@ -17,6 +20,8 @@ export async function detectSums(arr) {
   }
   return result;
 }
+
+//NOTE version 2
 
 function createIndexMap(arr) {
   const indexMap = {};

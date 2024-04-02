@@ -5,7 +5,7 @@ import { detectSumsV2 } from '@/server/actions';
 import PrettyJSON from '@/components/ui/PrettyJSON';
 import InputError from '@/components/ui/InputError';
 import Fade from '@/components/ui/Fade';
-import useDebounceCallback from '@/app/hooks/useDebounceCallback';
+import useDebounceCallback from '@/hooks/useDebounceCallback';
 
 export default function InputForm() {
   const [text, setText] = useState('');
