@@ -1,5 +1,6 @@
 import React from 'react';
-import Show from '@/components/ui/Show';
+import Show from '../Show';
+
 import JSONPretty from 'react-json-pretty';
 import 'react-json-pretty/themes/monikai.css';
 

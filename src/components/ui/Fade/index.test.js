@@ -1,16 +1,17 @@
+/* eslint-disable testing-library/no-node-access */
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import Fade from '.';
 
 describe('Fade', () => {
   it('renders children correctly', () => {
-    const { getByText } = render(
+    render(
       <Fade>
         <div>Test Content</div>
       </Fade>
     );
 
-    expect(getByText('Test Content')).toBeInTheDocument();
+    expect(screen.getByText('Test Content')).toBeInTheDocument();
   });
 
   it('applies correct initial and whileInView styles when toward is X', () => {

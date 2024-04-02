@@ -1,11 +1,11 @@
 'use client';
 import React, { useCallback, useState } from 'react';
-import { parseListInput, validateInput } from '@/lib';
-import { detectSumsV2 } from '@/server/actions';
-import PrettyJSON from '@/components/ui/PrettyJSON';
-import InputError from '@/components/ui/InputError';
-import Fade from '@/components/ui/Fade';
-import useDebounceCallback from '@/hooks/useDebounceCallback';
+import { parseListInput, validateInput } from '../../lib';
+import { detectSumsV2 } from '../../lib';
+import PrettyJSON from '../ui/PrettyJSON';
+import InputError from '../ui/InputError';
+import Fade from '../ui/Fade';
+import useDebounceCallback from '../../hooks/useDebounceCallback';
 
 export default function InputForm() {
   const [text, setText] = useState('');
@@ -18,7 +18,7 @@ export default function InputForm() {
       setResults('');
     } else {
       setInputError('');
-      const results = await detectSumsV2(parseListInput(text));
+      const results = detectSumsV2(parseListInput(text));
       setResults(JSON.stringify(results));
     }
   }, [text]);

@@ -1,14 +1,14 @@
 'use client';
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { cn } from '@/lib';
+import { cn } from '../../../lib';
 
 export default function Fade({
   children,
   className,
   As,
   delay = 0,
-  toward: toward = 'Y',
+  toward = 'Y',
   x,
   y = 7,
   duration = 0.7,

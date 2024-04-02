@@ -1,5 +1,5 @@
 import React from 'react';
-import Show from '@/components/ui/Show';
+import Show from '../Show';
 
 export default function InputError({ error }) {
   return (

@@ -1,3 +1,5 @@
+/* eslint-disable testing-library/no-node-access */
+/* eslint-disable testing-library/prefer-presence-queries */
 import { render, screen } from '@testing-library/react';
 import InputError from '.';
 
