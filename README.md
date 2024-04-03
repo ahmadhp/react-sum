@@ -1,6 +1,8 @@
 ![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=react-sum&style=for-the-badge)
 
-[Github Issue](https://github.com/ahmadhp/react-sum/issues/1)
+&rarr; https://react-sum.vercel.app
+
+&rarr; [Github Issue](https://github.com/ahmadhp/react-sum/issues/1)
 
 ## Project Requirements
 
