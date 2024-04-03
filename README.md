@@ -46,6 +46,6 @@ browser.
 
 ![Test Run](https://github.com/ahmadhp/react-sum/blob/feature/react-sum-issues-1/tests.png)
 
-## How to run tests?
+## How to run playwright end to end tests?
 
 ### `npm run test:e2e`
