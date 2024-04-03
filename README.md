@@ -42,6 +42,7 @@ browser.
 
 ### `npm test`
 
+![Test Run](https://github.com/ahmadhp/react-sum/blob/feature/react-sum-issues-1/tests.png)
 
 
 
